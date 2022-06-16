@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tienda</h1>
+    <div> 
+        <label for="cliente">Cliente</label>
+        <input type="text" placeholder="Ingresa el nombre del cliente" id="cliente"> 
+    </div>
+    <div> 
+        <label for="p1">Producto 1</label>
+        <input type="text" placeholder="Ingrese el producto" id="p1"> 
+    </div> 
+    <div> 
+        <label for="precio1">Precio del producto</label>
+        <input type="number" placeholder="Ingrese el producto" id="precio1"> 
+    </div>
+    <div> 
+        <label for="cantidad">Cantidad</label>
+        <input type="number" placeholder="Ingrese la cantidad" id="cantidad"> 
+    </div>
+    <div>
+        <button type="button" id="procesar" onclick="descuento()">Descuento</button>
+    </div>
+    <div>
+        <label for="">Nombre del cliente: </label>
+        <span id="cliente_txt"></span>
+    </div>  
+    <div>
+        <label for="">El Producto es: </label>
+        <span id="producto_txt"></span>
+    </div>  
+    <div>
+        <label for="">Descuento Final es: </label>
+        <span id="descuento"></span>
+    </div>
+    <script src="tienda.js"></script>
+</body>
+</html>
